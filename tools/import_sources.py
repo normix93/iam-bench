@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PRODUCTS = {
     "sailpoint": {"product": "SailPoint Identity Security Cloud", "prefix": "isc", "version": "SaaS, Nov 2026",
                   "repo": "https://github.com/normix93/sailpoint-isc-skills", "skill_prefix": "isc-",
-                  "runs": ["evals/runs", "evals/runs-sources", "evals/runs-nerm"],
+                  "runs": ["evals/runs", "evals/runs-sources", "evals/runs-nerm", "evals/runs-rules-migration"],
                   # NERM is a separate SailPoint product with its own API
                   "products_by_skill": {"isc-nerm": "SailPoint Non-Employee Risk Management"}},
     "midpoint": {"product": "Evolveum midPoint", "prefix": "mp", "version": "4.8 LTS / 4.10",
